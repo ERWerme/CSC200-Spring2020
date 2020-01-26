@@ -1,12 +1,12 @@
 <html>
  <head>
- <link rel="stylesheet" type="text/css" href="../Common/style.css">
- <script>
- </script>
+   <link rel="stylesheet" type="text/css" href="../Common/style.css">
+   <script>
+   </script>
  </head>
  <body>
   <p>
-  <a href="./homework1.html">About Me</a><br>
+  <a href="./homework1.html">About Me</a>
   </p>
  </body>
 </html> 
