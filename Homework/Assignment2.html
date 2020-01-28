@@ -2,6 +2,7 @@
  <head>
    <style>
     body{text-align:center;}
+    body.default {text-align:center;}
     body.valentines {color:red;background:pink;text-align:left;}
     body.halloween {color:orange;background:black;text-align:center;}
     body.christmas {color:red;background:lightgreen;text-align:right;}
@@ -36,6 +37,7 @@
    Winter in their cry.
   </p>
   <p style="text-align:center">
+   <button onclick="document.body.className='default'">Default</button>
    <button onclick="document.body.className='valentines'">Valentine's Day</button>
    <button onclick="document.body.className='halloween'">Halloween</button>
    <button onclick="document.body.className='christmas'">Christmas</button>
