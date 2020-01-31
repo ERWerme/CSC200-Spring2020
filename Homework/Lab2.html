@@ -1,14 +1,21 @@
 <html>
  <head>
+  <script>
+   function passBall( person1, person2 )
+   {
+    document.getElementById(person1).innerHTML = "No Ball";
+    document.getElementById(person2).innerHTML = "Ball";
+   }
+  </script>
  </head>
  <body>
   <p id="father">
    Ball <br>
-   <button onclick="id='father'">Father</button> 
+   <button onclick="passBall('father','son')">Father</button> 
   </p>
   <p id="son">
    No Ball <br>
-   <button onclick="id='son'">Son</button>
+   <button onclick="passBall('son','father')">Son</button>
   </p>
  </body>
 </html> 
